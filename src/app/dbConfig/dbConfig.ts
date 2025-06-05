@@ -19,3 +19,5 @@ export async function connectToDatabase() {
         throw error;
     }
 }
+
+export default connectToDatabase;
