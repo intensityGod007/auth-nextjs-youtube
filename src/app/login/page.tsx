@@ -62,6 +62,7 @@ export default function LoginPage() {
                 placeholder='Enter your password'
                 className="border border-gray-300 rounded p-2 mb-4 w-64"
             />
+            <Link href='/forgotpassword'>Forgot password?</Link>
             <button
             onClick={onLogin}
             className="bg-blue-500 text-white rounded p-2 w-64 hover:bg-blue-600 transition duration-200"
